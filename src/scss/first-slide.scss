@@ -1,0 +1,137 @@
+
+
+
+
+
+
+
+
+
+.first-tab__images div {
+position: absolute
+}
+
+.first-slide-bacti1 {
+   top: 201px;
+   right: 56px;
+   z-index: 1002;
+   animation: move-bacti-1 linear 20s infinite;
+}
+
+.first-slide-bacti2 {
+   top: 75px;
+   right: 900px;
+}
+
+.first-slide-bacti3 {
+   top: 65px;
+   right: 222px;
+   animation: move-bacti-3 linear 20s infinite;
+}
+
+.first-slide-bacti4 {
+   top: 42px;
+   right: 51px;
+}
+
+.first-slide-bacti5 {
+   top: 641px;
+   left: 360px;
+}
+
+.first-slide-bacti6 {
+   top: 654px;
+   right: 262px;
+   animation: move-bacti-6 linear 20s infinite;
+}
+
+.first-slide-bacti7 {
+   top: 505px;
+   left: 45px;
+   animation: move-bacti-7 linear 20s infinite;
+}
+
+.first-slide-sperm1 {
+   top: 160px;
+   left: 430px;
+   z-index: 1001;
+}
+
+.first-slide-sperm2 {
+   top: 606px;
+   right: 760px;
+   z-index: 1001;
+}
+
+@keyframes move-bacti-1{
+   0%{
+      transform: translate(0, 0);
+   }
+   25%{
+      transform: translate(-10px, 40px) scale(1.2) rotate(30deg);
+   }
+   50%{
+      transform: translate(-50px, 10px) rotate(60deg);
+   }
+   75%{
+      transform: translate(25px, -50px) scale(1.4) rotate(30deg);
+   }
+   100%{
+      transform: translate(0, 0);
+   }
+}
+
+@keyframes move-bacti-3{
+   0%{
+      transform: translate(0, 0);
+   }
+   25%{
+      transform: translate(-30px, -20px) scale(1.2);
+   }
+   50%{
+      transform: translate(20px, 10px);
+   }
+   75%{
+      transform: translate(40px, 50px) scale(1.4);
+   }
+   100%{
+      transform: translate(0, 0);
+   }
+}
+
+@keyframes move-bacti-6{
+   0%{
+      transform: translate(0, 0);
+   }
+   25%{
+      transform: translate(30px, -20px) scale(1.2);
+   }
+   50%{
+      transform: translate(20px, 10px);
+   }
+   75%{
+      transform: translate(40px, 50px) scale(1.4);
+   }
+   100%{
+      transform: translate(0, 0);
+   }
+}
+
+@keyframes move-bacti-7{
+   0%{
+      transform: translate(0, 0);
+   }
+   25%{
+      transform: translate(50px, 50px);
+   }
+   50%{
+      transform: translate(20px, 10px);
+   }
+
+   75%{
+      transform: translate(40px, 50px);
+   }
+   100%{
+      transform: translate(0, 0);
+   }
+}

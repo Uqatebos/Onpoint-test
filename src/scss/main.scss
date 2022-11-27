@@ -1,0 +1,129 @@
+body {
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.wrapper {
+   height: 768px;
+   width: 1024px;
+   position: relative;
+   overflow: hidden;
+}
+
+.main-content {
+   height: 768px;
+   width: 3072px;
+   position: relative;
+   display: flex;
+   transition-duration: 0.4s;
+}
+
+.home-page {
+height: 20px;
+}
+.main-nav{
+   position: absolute;
+   left: 66px;
+   top: 27px;
+   z-index: 1000;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 20px;
+}
+
+.nav-project {
+   margin-left: 51px;
+}
+.nav-project::before{
+      content: " ";
+      background: #000;
+      width: 2px;
+      height: 25px;
+      /* линия смещена на 10px слева от текста*/
+      left: 46px;
+      top: -3px;
+      /* включаем абсолютное позиционирование относительно блока с relative */
+      position: absolute;
+}
+
+.onpoint-logo {
+   position: absolute;
+   left: 70px;
+   bottom: 30px;
+   z-index: 1000;
+}
+
+.first-tab {
+   height: 768px;
+   width: 1024px;
+   background-image: url("img/bg/first-bg.png");
+   position: relative;
+}
+
+.btn-next {
+   background-color: #ff6a9f;
+   width: 287px;
+   height: 80px;
+   border-radius: 40px;
+   position: absolute;
+   right: 109px;
+   bottom: 223px;
+   z-index: 1000;
+}
+
+.btn-next img {
+   position: absolute;
+   top: 10px;
+   left: 15px;
+}
+.btn-next span {
+   font-size: 23px;
+   letter-spacing: 1px;
+   position: absolute;
+   top: 26px;
+   left: 90px;
+}
+
+.main-text {
+   position: absolute;
+   top: 62px;
+   left: 69px;
+}
+
+h1 {
+   font-family: 'Montserrat', sans-serif;
+   font-size: 102px;
+}
+
+.main-text__light {
+   font-size: 25px;
+   font-weight: 300;
+}
+
+.main-text__bold {
+   font-weight: 800;
+}
+
+.second-tab {
+   height: 768px;
+   width: 1024px;
+   background-image: url("img/bg/second-bg.png");
+   position: relative;
+}
+
+h2 {
+   font-size: 28px;
+   position: absolute;
+   top: 136px;
+   left: 67px;
+}
+
+.third-tab {
+   height: 768px;
+   width: 1024px;
+   background-image: url("img/bg/third-bg.png");
+   position: relative;
+}
