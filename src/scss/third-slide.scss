@@ -82,15 +82,15 @@
    position: absolute;
    top: 160px;
    right: 115px;
-   width: 24px;
-   height: 24px;
+   width: 44px;
+   height: 44px;
 }
 
 .close-modal::before,
 .close-modal::after {
    content: '';
    position: absolute;
-   top: 10px;
+   top: 20px;
    display: block;
    width: 50px;
    height: 3px;
