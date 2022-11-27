@@ -42,10 +42,8 @@ height: 20px;
       background: #000;
       width: 2px;
       height: 25px;
-      /* линия смещена на 10px слева от текста*/
       left: 46px;
       top: -3px;
-      /* включаем абсолютное позиционирование относительно блока с relative */
       position: absolute;
 }
 
